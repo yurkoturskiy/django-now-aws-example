@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"name": "django-now-aws",
+	"name": "django-now-aws-example",
 	"builds": [
 		{
 			"src": "app.py",
