@@ -1,0 +1,17 @@
+{
+	"version": 2,
+	"name": "django-now-aws",
+	"builds": [
+		{
+			"src": "app.py",
+			"use": "@ardnt/now-python-wsgi",
+			"config": { "maxLambdaSize": "15mb" }
+		}
+	],
+	"routes": [
+		{
+			"src": "/(.*)",
+			"dest": "app.py"
+		}
+	]
+}
