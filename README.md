@@ -1,8 +1,12 @@
-# django-now-aws-example [DEMO](https://django-now-aws.guandjoy.now.sh/)
+# django-now-aws-example 
 Deployment setup of ZEIT now for django with AWS (S3, RDS - postgres)
-
-Based on @Agiliq's [article](https://www.agiliq.com/blog/2019/02/django-zeit-now-serverless/) <br/>
-But with @ardnt's [now builder](https://github.com/ardnt/now-python-wsgi).
+## [DEMO](https://django-now-aws.guandjoy.now.sh/)
+### Django admin credentials:
+login: admin <br/>
+password: adminpass
+### Acknowledgment
+Based on @Agiliq [article](https://www.agiliq.com/blog/2019/02/django-zeit-now-serverless/) <br/>
+But with @ardnt [now builder](https://github.com/ardnt/now-python-wsgi).
 
 ## Put own credentials to the `settings.py` file
 ### Database:
