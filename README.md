@@ -1,5 +1,5 @@
 # django-now-aws-example 
-Deployment setup of ZEIT now for django with AWS (S3, RDS - postgres)
+A dead-simple example of ZEIT Now serverless deployment for a Django WSGI application with AWS (S3, RDS) configurations.
 ## [DEMO](https://django-now-aws.guandjoy.now.sh/)
 ### Django admin credentials:
 login: admin <br/>
